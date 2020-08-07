@@ -1,0 +1,62 @@
+{
+  "output": {
+    "generic": [
+      {
+        "values": [
+          {
+            "text": "where should I move sir?choose:"
+          }
+        ],
+        "response_type": "text",
+        "selection_policy": "sequential"
+      },
+      {
+        "title": "",
+        "options": [
+          {
+            "label": "Right",
+            "value": {
+              "input": {
+                "text": "moving  to Right"
+              }
+            }
+          },
+          {
+            "label": "Left",
+            "value": {
+              "input": {
+                "text": "moving  to left "
+              }
+            }
+          },
+          {
+            "label": "froward",
+            "value": {
+              "input": {
+                "text": "going  froward"
+              }
+            }
+          },
+          {
+            "label": "back",
+            "value": {
+              "input": {
+                "text": "going  back"
+              }
+            }
+          }
+        ],
+        "response_type": "option"
+      },
+      {
+        "values": [
+          {
+            "text": "what can I do ?"
+          }
+        ],
+        "response_type": "text",
+        "selection_policy": "sequential"
+      }
+    ]
+  }
+}
